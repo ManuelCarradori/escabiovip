@@ -50,7 +50,6 @@ function validarEdad(edad) {
 }
 
 function cargarDatos(productos, articulos) {
-  let pedido = JSON.parse(localStorage.getItem("pedido")) ?? [];
   productos.forEach((producto, indice) => {
     var articulo = new Articulo(
       producto.id,
@@ -69,7 +68,6 @@ function cargarDatos(productos, articulos) {
       $("#precio").val(articulo.precio);
     }
   });
-  localStorage.setItem("pedido", JSON.stringify(pedido));
 }
 
 function generarHtmlProducto(producto) {
