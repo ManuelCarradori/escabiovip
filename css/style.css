@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(98, 27, 27);
   color: rgb(229, 254, 2);
   font-family: "Big Shoulders Display";
   font-weight: 600;
@@ -107,7 +107,7 @@ header {
 }
 
 .bg-5 {
-  background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(135deg, rgb(98, 27, 27) 0%, rgba(218, 6, 65, 0.729) 100%);
 }
 
 .animated-shadow {
