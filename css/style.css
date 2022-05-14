@@ -506,3 +506,14 @@ input {
   padding-top: 10px;
   margin-bottom: 10px;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__copyright {
+  color: grey;
+  font-size: 1rem;
+  padding: 1rem;
+}
