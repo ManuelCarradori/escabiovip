@@ -16,7 +16,7 @@ header {
 
 .modal-header {
   background-color: rgb(229, 254, 2);
-  color: black;
+  color: rgb(96 15 15);
 }
 
 .modal-title {
@@ -31,7 +31,7 @@ header {
 
 .modal-content {
   background-color: rgb(19, 18, 18);
-  color: rgb(229, 254, 2);
+  color: rgb(255 0 0);
   border: 1px solid;
 }
 
@@ -44,7 +44,7 @@ header {
 .btn:hover {
   background-color: rgb(229, 254, 2);
   border: 1px solid rgb(229, 254, 2);
-  color: black;
+  color: rgb(96 15 15);
 }
 
 .container,
